@@ -1,0 +1,53 @@
+div.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 10px #8c8bc7;
+    text-align: center;
+    margin: 100px;
+    background-color: #8887C5;
+}
+.Signup{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+label ,a{
+    color: white;
+}
+
+.inputText , .inputPass{
+    font-size: 15px;
+    border-radius: 1px rgb(110, 110, 110);
+    width: 90%;
+    padding: 10px 5px ;
+}
+
+.name{
+    font-size: 15px;
+    border-radius: 1px rgb(110, 110, 110);
+    padding: 10px 5px ;
+    width: 130px;
+}
+
+.button{
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 4px;
+    background-color: #8F8B86;
+    border: 0px;
+    color: #837D78;
+}
+.last , a{
+    font-size: 10px;
+}
+body{
+    background-color: #DEDDFD;
+}

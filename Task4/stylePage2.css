@@ -1,0 +1,45 @@
+div.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 10px rgb(216, 215, 215);
+    margin: 100px;
+    background-color: white;
+}
+.Signup{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+    color: #6ba2b1;
+}
+
+.input label {
+    color: rgb(125, 191, 233);
+    text-align: right;
+}
+
+.inputText , .inputPass{
+    font-size: 15px;
+    border-radius: 100px rgb(155, 173, 193);
+    width: 90%;
+    padding: 10px 5px ;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 4px;
+    background-color: #a6b8e0;
+    border: 0px;
+    color: white;
+    margin-left: 35%;
+}
+body{
+    background-color: #9ae5f9;
+}

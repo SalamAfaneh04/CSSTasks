@@ -1,0 +1,48 @@
+.main{
+    border: 7px solid #D8A723;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: stretch;
+    align-content: stretch;
+    height: 100vh;
+
+}
+.box{
+    color: white;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    font-size: 100px;
+}
+#one{
+    background-color: #1BBC9B;
+}
+#two{
+    background-color: #3598DB;
+
+}
+#three{
+    background-color: #9A59B5;
+}
+#four{
+    background-color: #34495E ;
+}
+#five{
+    background-color:#F1C40F ;
+}
+#six{
+    background-color:#E67F22 ;
+}
+#seven{
+    background-color: #E84C3D;
+}
+#eghit{
+    background-color: #BEC3C7;
+}
+#nine{
+    background-color: #2DCC70;
+}
+#ten{
+    background-color: #16A086;
+}

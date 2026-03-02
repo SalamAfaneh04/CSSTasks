@@ -1,0 +1,25 @@
+body{
+    background-color: #FFFFCD;
+}
+.mark{
+    background-color: #FCC99D;
+}
+div{
+    border:  1px solid black;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    width: 75%;
+}
+.third{
+    color: red;
+    border: 1px dashed red;
+
+}
+.third > p{
+    border: 2px dashed red;
+
+}
+.thirdMark{
+    color: red;
+}

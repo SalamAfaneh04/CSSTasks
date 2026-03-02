@@ -1,0 +1,69 @@
+img{
+
+    height: 100px;
+}
+
+div.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    border-radius: 2px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 1px rgb(221, 219, 219);
+}
+div{
+    display: flex;
+    flex-direction: row;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+pre{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+.SignIn{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.secondLable{
+    font-size: 15px;
+    padding-right: 10px ;
+}
+.inputText , .inputPass{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 1px rgb(110, 110, 110);
+    width: 90%;
+    padding: 10px 5px ;
+}
+.forgotPassword{
+    color: #0965C1;
+}
+.button{
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 4px;
+}
+#firstbtn{
+    background-color: #0965C1;
+    border: 0px;
+    color: white;
+}
+#lastbtn{
+    border: 1px solid black;
+    background-color: white;
+    color: gray;
+}
+
+.ORLine{
+    padding-left: 4px;
+}

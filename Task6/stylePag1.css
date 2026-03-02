@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+.page{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content:stretch;
+   align-items: stretch;
+   height: 100vh;
+
+}
+#first{
+    background-color: orange;
+}
+#second{
+    background-color: blue;
+}
+
+#first, #second{
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: xx-large;
+
+}

@@ -1,0 +1,51 @@
+div.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 1px rgb(221, 219, 219);
+    text-align: center;
+    margin: 100px;
+    background-color: white;
+}
+.Login{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+
+}
+
+.inputText , .inputPass{
+    font-size: 15px;
+    border-radius: 1px rgb(110, 110, 110);
+    width: 90%;
+    padding: 10px 5px ;
+}
+
+.button{
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 4px;
+    background-color: #0B847A;
+    border: 0px;
+    color: white;
+}
+.last{
+    font-size: 10px;
+    text-align: center;
+}
+.he{
+    color: #0B847A;
+}
+.show{
+    text-align: left;
+    font-size: 15px;
+}
+body{
+    background: linear-gradient(to bottom left, #33B7A3, #90D8AB);
+}
